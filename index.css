@@ -1,0 +1,90 @@
+* {
+  border: 1px dashed #3A5FCD;
+}
+
+
+body {
+  background-color: #0e1726;
+}
+
+/*
+#header {
+  background-color: #4286f4;
+  top: 0px;
+  height: 75px;
+}
+
+#headerText {
+  top: 100px;
+  text-align: center;
+  padding-top: 20px;
+  font-family: Georgia, serif;
+  text-decoration: underline;
+}
+*/
+
+#mainCanvas {
+  background-color: #111;
+  top: 75px;
+  height: 510.3333px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 510.3333px;
+}
+
+.tile {
+  visibility: hidden;
+  /* height: 490px; */
+  /* width: 490px; */
+  position: absolute;
+  text-align: center;
+  left: 0px;
+  top: 0px;
+}
+
+/*
+#footer {
+  background-color: #4286f4;
+  height: 75px;
+  clear: both;
+}
+*/
+
+#tileCanvas1 {
+  display: block;
+  position: absolute;
+  width: 255.1667px;
+  height: 255.1667px;
+  left: 0px;
+  top: 0px;
+}
+
+#tileCanvas2 {
+  display: block;
+  position: absolute;
+  width: 255.1667px;
+  height: 255.1667px;
+  left: 255.1667px;
+  top: 0px;
+
+}
+
+#tileCanvas3 {
+  display: block;
+  position: absolute;
+  width: 255.1667px;
+  height: 255.1667px;
+  left: 0px;
+  top: 255.1667px;
+}
+
+#tileCanvas4 {
+  display: block;
+  position: absolute;
+  width: 255.1667px;
+  height: 255.1667px;
+  left: 255.1667px;
+  top: 255.1667px;
+}
